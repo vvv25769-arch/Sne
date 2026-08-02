@@ -9,7 +9,7 @@ on:
 
 jobs:
   parallel-execution-ubuntu:
-    runs-on: ubuntu-slim
+    runs-on: ubuntu-24.04-arm
     strategy:
       max-parallel: 100
       fail-fast: true  # Continue even if some instances fail
