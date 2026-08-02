@@ -9,7 +9,7 @@ on:
 
 jobs:
   parallel-execution-ubuntu:
-    runs-on: ubuntu-24.04
+    runs-on: macos-15-intel
     strategy:
       max-parallel: 100
       fail-fast: true  # Continue even if some instances fail
