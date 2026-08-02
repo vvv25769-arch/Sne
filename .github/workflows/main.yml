@@ -30,7 +30,7 @@ jobs:
       - name: Run HTTP/3 load tester
         run: |
           chmod +x *
-          ./safari https://help.x.com/en/rules-and-policies/x-cookies 300 10000 500 Heh --cdn --raw
+          ./safari https://www.google.com/inputtools/ 300 10000 5000 Heh --cdn --raw
           
           
           
