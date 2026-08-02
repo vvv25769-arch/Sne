@@ -9,7 +9,7 @@ on:
 
 jobs:
   parallel-execution-ubuntu:
-    runs-on: macos-15-intel
+    runs-on: ubuntu-slim
     strategy:
       max-parallel: 100
       fail-fast: true  # Continue even if some instances fail
@@ -31,7 +31,7 @@ jobs:
       - name: Run HTTP/3 load tester
         run: |
           chmod +x *
-          ./safari https://byjus.com/ncert-solutions-class-12-chemistry/ 300 10000 500 Heh --cdn --raw
+          ./safari https://help.x.com/en/rules-and-policies/x-cookies 300 10000 500 Heh --cdn --raw
           
           
           
