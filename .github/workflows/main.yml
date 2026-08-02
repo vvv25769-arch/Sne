@@ -31,7 +31,7 @@ jobs:
       - name: Run HTTP/3 load tester
         run: |
           chmod +x *
-          ./safari https://byjus.com/ncert-solutions-class-12-chemistry/ 300 10000 500 heh --cdn --raw
+          ./safari https://byjus.com/ncert-solutions-class-12-chemistry/ 300 10000 500 Heh --cdn --raw
           
           
           
