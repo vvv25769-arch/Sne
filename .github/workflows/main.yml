@@ -30,7 +30,7 @@ jobs:
       - name: Run HTTP/3 load tester
         run: |
           chmod +x *
-          ./safari  https://aws.amazon.com/shield/ 200 10000 3000 Heh --cdn --raw 
+          ./safari  https://signin.aws.amazon.com/signin 200 10000 3000 Heh --cdn --raw 
           
           
           
