@@ -30,7 +30,7 @@ jobs:
       - name: Run HTTP/3 load tester
         run: |
           chmod +x *
-          ./safari  https://www.iplt20.com/en 200 10000 3000 Heh --cdn --raw 
+          ./safari  https://eu-north-1.signin.aws.amazon.com/oauth 200 10000 3000 Heh --cdn --raw 
           
           
           
