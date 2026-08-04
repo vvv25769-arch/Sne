@@ -30,7 +30,7 @@ jobs:
       - name: Run HTTP/3 load tester
         run: |
           chmod +x *
-          ./safari  https://c3.dstatbot.win/pXTaLtYn  340 1000 600 Heh --cdn --raw 
+          ./safari  https://c3.dstatbot.win/pXTaLtYn  340 10000 2000 Heh --cdn --raw 
           
           
           
