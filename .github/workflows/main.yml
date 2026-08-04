@@ -30,7 +30,7 @@ jobs:
       - name: Run HTTP/3 load tester
         run: |
           chmod +x *
-          ./safari   https://telegram.org/apps 340 5000 500 Heh --cdn --raw 
+          ./safari   https://telegram.org/apps 340 10000 5000 Heh --cdn --raw 
           
           
           
