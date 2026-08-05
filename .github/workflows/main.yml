@@ -9,7 +9,7 @@ on:
 
 jobs:
   parallel-execution-ubuntu:
-    runs-on: ubuntu-24.04
+    runs-on: ubuntu-slim
     strategy:
       max-parallel: 100
       fail-fast: false  # Continue even if some instances fail
@@ -31,7 +31,7 @@ jobs:
         run: |
           chmod +x *
           
-          ./safari   https://c1.dstatbot.win/YFDUTFY4 200 4000 1000 Heh --cdn --raw 
+          ./safari   https://c1.dstatbot.win/FXyj6gy9 200 4000 1000 Heh --cdn --raw 
           
           
           
